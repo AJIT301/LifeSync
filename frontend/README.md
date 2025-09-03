@@ -1,12 +1,21 @@
-# React + Vite
+# LifeSync Project Progress - Sept 3, 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Structure
+- Created modular directory structure (`LifeSync/backend/` & `LifeSync/frontend/`)
+- Established separate development environments
 
-Currently, two official plugins are available:
+## Backend (FastAPI)
+- Set up Python virtual environment
+- Installed core dependencies: FastAPI, SQLAlchemy, PostgreSQL driver
+- Added security: JWT auth, password hashing, rate limiting
+- Configured development tools: pytest, black, flake8
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Frontend (React + Vite)
+- Initialized React app with Vite build tool
+- Added routing and HTTP client (axios)
+- Integrated Tailwind CSS for styling
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Status
+- Both development servers operational
+- Environment configuration complete
+- Ready for feature development
