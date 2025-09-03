@@ -19,3 +19,6 @@
 - Both development servers operational
 - Environment configuration complete
 - Ready for feature development
+
+## Fix VS code
+-Git credential conflict in VS Code config files.
